@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-navigation-size: 20;
+}
+.swiper-slide {
+  text-align: center;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
